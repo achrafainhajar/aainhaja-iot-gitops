@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: iot-app
-          image: mammamiya/iot-app:v2
+          image: mammamiya/iot-app:v1
           imagePullPolicy: Always
           ports:
             - containerPort: 8888
